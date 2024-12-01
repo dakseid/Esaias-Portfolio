@@ -63,18 +63,23 @@ section {
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
+    justify-content: space-evenly;
 }
 
 .text-container {
-    max-width: 600px;
+    width: 700px;
+    max-width: 700px;
     font-weight: bold;
-    animation: fade-in-out 3s infinite alternate;
+    display: block;
+   
 }
 
 #text {
     font-size: 5em;
     font-weight: 700;
     margin-bottom: 10px;
+    animation: fade-in-out 3s infinite alternate;
+
 }
 /* Fade animation */
 @keyframes fade-in-out {
